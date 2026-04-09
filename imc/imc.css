@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ce0e04;
+    margin: 0;
+    padding: 0;
+
+    /* ADICIONADO */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #16c1f1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    padding: 20px;
+
+    /* ADICIONADO */
+    flex: 1;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #50c878;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3fa864;
+}
+
+/* Mensagem de erro */
+.erro {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Resultado */
+.resultado {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Destaque classificação */
+.destaque {
+    color: #4a90e2;
+    font-size: 18px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #0805b7;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
